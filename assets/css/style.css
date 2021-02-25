@@ -202,3 +202,18 @@ and the social media marketing */
 .footer h2 {
     font-size: 20px;
 }
+
+/*Easy view for 768px resolution screen*/
+@media screen and (max-width: 768px) {
+    header,
+    div, ul, li, .content, .benefits,
+    .online-reputation-management, .search-engine-optimization,
+    .social-media-marketing {
+      flex-direction: column;
+      padding-right: 0%;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+
